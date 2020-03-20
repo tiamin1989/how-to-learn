@@ -48,8 +48,6 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  background-image: url('../images/two_again.png');
-  background-size: cover;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -90,20 +88,18 @@
   display: flex;
   justify-content: space-between;
   min-width: 959px;
-  /* уважаемый код-ревьювер, тут не понял, зачем здесь нужен min-height по ТЗ:
-  "Используйте min-height с осторожностью"
-  пожалуйста, подскажи
-  min-height: 366px;*/
 }
 
 .two-columns__brief {
+  margin: 0;
+  font-weight: normal;
   flex-basis: 175px;
   color: #2F80ED;
   line-height: 1.2;
   font-size: 18px;
 }
 
-.two-columns__main__text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
 }
@@ -159,10 +155,11 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  margin: 0 0 20px;
+  margin: 0;
 }
 
 .table__text {
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
 }
@@ -264,6 +261,11 @@
   min-height: 350px;
 }
 
+.footer__column {
+  color: white;
+  font-size: 18px;
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
@@ -278,16 +280,12 @@
 
 .footer__author {
   padding: 18px 0;
-  color: white;
   line-height: 25px;
-  font-size: 18px;
 }
 
 .footer__column-heading {
-  color: #F2F2F2;
   margin: 0 0 20px;
   line-height: 30px;
-  font-size: 18px;
 }
 
 .footer__column-links {
@@ -298,7 +296,6 @@
 .footer__li {
   margin: 0 0 16px;
   line-height: 30px;
-  font-size: 18px;
 }
 
 .footer__link {
@@ -309,6 +306,21 @@
 .footer__social-icon {
   display: inline-block;
   margin: 0 10px 0 0;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__social-icon_fb {
+  background-image: url('../images/facebook_white.svg');
+}
+
+.footer__social-icon_vk {
+  background-image: url('../images/vk_white.svg');
+}
+
+.footer__social-icon_in {
+  background-image: url('../images/instagram_white.svg');
 }
 
 .footer__link:hover {
