@@ -1,0 +1,11 @@
+@import url('./_fb/footer__social-icon_fb.css');
+@import url('./_vk/footer__social-icon_vk.css');
+@import url('./_in/footer__social-icon_in.css');
+
+.footer__social-icon {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+}
