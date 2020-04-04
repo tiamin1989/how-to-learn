@@ -3,12 +3,10 @@
 @import url('../feinman/__link/feinman__link.css');
 
 .feinman {
-  height: 885px;
+  min-height: 790px;
   position: relative;
-  background-image: url('../../images/feinman.png');
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  background-color: #F2F2F2;
+  background: no-repeat left bottom url('../../images/feinman.png') #F2F2F2;
+  background-size: 867px 637px;
 }
 
 

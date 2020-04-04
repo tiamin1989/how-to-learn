@@ -6,6 +6,6 @@
   right: -210px;
   background-image: url('../../../images/triangle.svg');
   background-size: contain;
-  animation: triangle_rotate 20s infinite linear;
   transform-origin: 500px 360px;
+  z-index: -1;
 }

@@ -12,19 +12,21 @@
   <div class="page">
 
     <header class="header">
-      <div class="logo logo_place_header"></div>
-      <h1 class="header__title">Научиться учиться</h1>
-      <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни? <a href="#" class="header__link">Узнать &#8594;</a></div>
       <img class="header__main-illustration" src="images/two_again.png" alt="Главная иллюстрация">
-      <div class="header__square-pic"></div>
+      <div class="logo logo_place_header"></div>
+
+      <h1 class="header__title">Научиться учиться</h1>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
+        жизни? <a href="#" class="header__link">Узнать &#8594;</a></p>
+      <div class="header__square-pic rotation"></div>
+
     </header>
 
     <main class="content">
 
       <section class="description">
-        <div class="two-columns">
-          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+        <article class="two-columns">
+          <h3 class="two-columns__brief">Главные проблемы в обучении</h3>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
               материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
@@ -35,7 +37,7 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="technics">
@@ -77,20 +79,16 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe class="video__youtube" src="https://www.youtube.com/embed/arj7oStGLkU"
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe class="video__youtube" src="https://www.youtube.com/embed/5MgBikgcWnY"
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
         </div>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
-          <h2 class="two-columns__brief">История Барбары Оакли.</h2>
+        <article class="two-columns">
+          <h3 class="two-columns__brief">История Барбары Оакли.</h3>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
               гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да
@@ -98,7 +96,7 @@
               тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши
               добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feinman">
@@ -155,7 +153,7 @@
           <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
             всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
             повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
-          <cite class="khan__quote-author">Джордж Лукас</cite>
+          <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/book.jpg" alt="Весь мир — школа">
@@ -165,7 +163,7 @@
       </section>
 
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <div class="table table_theme_dark">
@@ -216,12 +214,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="./images/arzamas.svg" alt="Арзамас">
-          <img class="resources__logo" src="./images/n1.svg" alt="N+1">
-          <img class="resources__logo" src="./images/strelka.svg" alt="Стрелка">
-          <img class="resources__logo" src="./images/polka.svg" alt="Полка">
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo"><a href="#"><img src="./images/arzamas.svg" alt="Арзамас"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/n1.svg" alt="N+1"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/strelka.svg" alt="Стрелка"></a></li>
+          <li class="resources__logo"><a href="#"><img src="./images/polka.svg" alt="Полка"></a></li>
+        </ul>
       </section>
 
     </main>
@@ -235,25 +233,22 @@
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
-            <li class="footer__li"><a href="#" class="footer__link">Главная</a></li>
-            <li class="footer__li"><a href="#" class="footer__link">Концепция</a></li>
-            <li class="footer__li"><a href="#" class="footer__link">Наставники</a></li>
+            <li class="footer__column-link"><a class="white-link" href="#">Главная</a></li>
+            <li class="footer__column-link"><a class="white-link" href="#">Концепция</a></li>
+            <li class="footer__column-link"><a class="white-link" href="#">Наставники</a></li>
           </ul>
         </div>
         <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li class="footer__li">
-              <a target="_blank" href="https://www.facebook.com/" class="footer__link">
-                <span class="footer__social-icon footer__social-icon_fb"></span>Facebook</a>
+            <li class="footer__column-link">
+              <a class="white-link" target="_blank" href="https://www.facebook.com/"><span class="footer__social-icon footer__social-icon_fb"></span>Facebook</a>
             </li>
-            <li class="footer__li">
-              <a target="_blank" href="https://vk.com/" class="footer__link">
-                <span class="footer__social-icon footer__social-icon_vk"></span>ВКонтакте</a>
+            <li class="footer__column-link">
+              <a class="white-link" target="_blank" href="https://vk.com/"><span class="footer__social-icon footer__social-icon_vk"></span>ВКонтакте</a>
             </li>
-            <li class="footer__li">
-              <a target="_blank" href="https://www.instagram.com/" class="footer__link">
-                <span class="footer__social-icon footer__social-icon_in"></span>Instagram</a>
+            <li class="footer__column-link">
+              <a class="white-link" target="_blank" href="https://www.instagram.com/"><span class="footer__social-icon footer__social-icon_in"></span>Instagram</a>
             </li>
           </ul>
         </div>
