@@ -1,5 +1,4 @@
 .technics {
   padding: 100px 0 0;
-  width: 80%;
-  margin: 0 auto 0;
+  flex-basis: 80%;
 }
