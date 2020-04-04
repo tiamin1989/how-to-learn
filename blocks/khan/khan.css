@@ -9,7 +9,8 @@
 @import url('./__buy-link/khan__buy-link.css');
 
 .khan {
-  margin: 100px 0 0;
-  padding: 105px 0 0;
-  background-color: #F2F2F2;
+  padding: 205px 0 0;
+  background-image: linear-gradient(#F2F2F2, #F2F2F2);
+  background-repeat: no-repeat;
+  background-position: 0 100px;
 }
