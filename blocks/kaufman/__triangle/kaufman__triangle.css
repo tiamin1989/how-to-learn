@@ -1,0 +1,20 @@
+@keyframes triangle_rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: -20px;
+  right: -210px;
+  background-image: url('../../../images/triangle.svg');
+  background-size: contain;
+  animation: triangle_rotate 20s infinite linear;
+  transform-origin: 500px 360px;
+}
